@@ -23,7 +23,6 @@ x = int(input("Enter number to search: "))
 result = list_1[0]
 for i in range(1, len(list_1)):
     if abs(list_1[i] - x) < abs(result-x):
-        print(f"{abs(list_1[i] - x)} {abs(result-x)}")
         result = list_1[i]
 print(result)
  
